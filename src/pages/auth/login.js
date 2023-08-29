@@ -89,6 +89,14 @@ const Page = () => {
                 >
                   Register
                 </Link>
+                <Link
+                  component={NextLink}
+                  href="/auth/register"
+                  underline="hover"
+                  variant="subtitle2"
+                >
+                  Register
+                </Link>
               </Typography>
             </Stack>
             {/* <Tabs onChange={handleMethodChange} sx={{ mb: 3 }} value={method}> */}
